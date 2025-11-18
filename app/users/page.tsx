@@ -168,7 +168,7 @@ export default function UsersPage() {
                               {user.name || 'Unnamed User'}
                             </p>
                             {isBen && (
-                              <Crown className="h-4 w-4 text-warning" title="Platform Owner" />
+                              <Crown className="h-4 w-4 text-warning" aria-label="Platform Owner" />
                             )}
                             {isCurrentUser && (
                               <span className="text-xs bg-primary-100 text-primary-700 px-2 py-0.5 rounded">
